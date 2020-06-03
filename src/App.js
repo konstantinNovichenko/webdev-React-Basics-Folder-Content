@@ -1,18 +1,14 @@
 import React, {Component} from 'react';
+import Folder from './Folder';
+import logo from './logo.svg';
 import './App.css';
-import Folder from './Folder.js';
 
 class App extends Component {
   render(){
     return(
-      <div className="App">      
-
+      <div class="div-center">      
         <Folder/>     
-
-      </div>
-    
-
-      
+      </div>      
     );       
   } 
 }
